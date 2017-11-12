@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.franciscoandrade.foodsharedpref.MainActivity"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your fav food!"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="30sp"
+            />
+
+        <EditText
+            android:id="@+id/favfood_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Food: "
+            android:inputType="text"/>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/savefood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save to fav food"/>
+
+
+    <Button
+        android:id="@+id/gotoGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to guess game"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/texttest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
